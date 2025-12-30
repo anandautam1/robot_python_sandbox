@@ -1,3 +1,14 @@
+# Robot Framework outputs
+log.html
+report.html
+output.xml
+*.log
+selenium-screenshot-*.png
+
+# Test results
+tests/results/*
+!tests/results/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
